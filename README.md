@@ -11,5 +11,9 @@ $ rebar get-deps && rebar compile
 ```
 
 ```shell
+$ rebar compile eunit
+```
+
+```shell
 erl -noshell -pa ebin -s drugstore start
 ```
