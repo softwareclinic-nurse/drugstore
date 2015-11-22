@@ -1,0 +1,12 @@
+{application, drugstore,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { drugstore_app, []}},
+  {env, []}
+ ]}.
